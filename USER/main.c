@@ -8,8 +8,6 @@
 /* USART DMA发送缓冲区 */
 uint8_t buff[256];
 
-// 11111
-
 int main(void)
 {
 	/* 初始化USART0，波特率115200，用于串口打印调试信息 */
