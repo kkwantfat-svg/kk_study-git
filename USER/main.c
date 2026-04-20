@@ -32,5 +32,8 @@ int main(void)
 	}
 }
 
-
+void led_on(void)
+{
+	
+}
 
