@@ -32,15 +32,3 @@ int main(void)
 	}
 }
 
-/**
- * @brief LED开启函数
- * @param 无
- * @return 无
- * @note 设置GPIOC的PIN13为高电平，点亮LED，延迟100ms
- */
-void led_on(void)
-{
-	gpio_bit_set(GPIOC, GPIO_PIN_13);	// 设置PC13引脚为高电平
-	delay_1ms(100);						// 延迟100毫秒
-}
-
